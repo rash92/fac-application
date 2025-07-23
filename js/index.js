@@ -1,5 +1,5 @@
-let root = document.getElementById("root")
+// let root = document.getElementById("root")
 
-let url = window.location.pathname
+// let url = window.location.pathname
 
-root.innerText = "this is the " + url +" page as changed by javascript"
+// root.innerText = "this is the " + url +" page as changed by javascript"

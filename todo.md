@@ -10,6 +10,8 @@ home:
     - explain other projects that open in new tabs
         - bomberman: only html, css and js but not solo made by me
         - snake and flappy fish: following tutorial
+            snake: bug - mushroom sometimes out of bounds
+            flappy fish: no instructions
         - todo: explain that it's using my custom framework made following tutorials that reimplements basic react features
     - explain background/ brief cv outline?
     - explain why i want to work in webdev
