@@ -47,3 +47,5 @@ css/ styling:
     - make it dynamic/ flexy? works on mobile/ changing window size?
     - animations as you scroll/ swap tabs?
     - background image changes as you swap tabs?
+
+add animations, mess about with padding, colours, centering etc., flesh out text in all the sections. Add more images.
