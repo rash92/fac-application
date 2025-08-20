@@ -30,6 +30,7 @@ home:
         other completed 01F projects (github): tabs -> miniframework, social network,
         misc projects (no github/ minor contributions/ unfinished): tabs -> cs_ff, physics project, ai safety camp, rpg-character creator
 
+    - navbar - jump to links instead of separate links? e.g. games, other projects, then external links to github and linked in maybe
 
 game:
     - roguelitish elements?
