@@ -23,10 +23,24 @@
   color: white;
 }
 
+body {
+  text-align: center;
+  color: lightgray;
+  background-color: #333;
+  width: 50%;
+  margin:auto ;
+  /* display: flex; */
+  justify-content: center;
+  /* background-image: url(../images/milkyway.jpg); */
+  /* background-size: cover; */
+}
+
 .tab {
   overflow: hidden;
-  border: 14px solid red;
-  background-color: #04AA6D;
+  /* border: 14px solid red; */
+  /* background-color: #04AA6D; */
+  display: flex;
+  justify-content: center;
 }
 
 .tab button {
@@ -50,8 +64,16 @@
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 10px solid brown;
+  /* width: 50%; */
+  /* border: 10px solid brown; */
   border-top: none;
+
+}
+
+#tab_applicationGame {
+  background-image: url(/images/dice.jpg);
+  background-size: contain;
+  color: lightyellow;
 
 }
 
@@ -74,7 +96,11 @@
 
 }
 
-
+#applicationGame {
+  background-image: url(/images/dice.jpg);
+  background-size: contain;
+  color: white;
+}
 
 #snake {
   background-image: url(/images/snake_background_1.jpg);
