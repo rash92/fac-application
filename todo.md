@@ -51,3 +51,7 @@ css/ styling:
     - images before/ after text instead of as background to it? makes it too hard to read as background maybe.
 
 add animations, mess about with padding, colours, centering etc., flesh out text in all the sections. Add more images.
+
+where to get free images:
+
+https://unsplash.com/s/photos/dice?license=free
