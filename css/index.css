@@ -1,6 +1,8 @@
 .topnav {
     background-color: #333;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .topnav a {
@@ -23,6 +25,45 @@
   color: white;
 }
 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbutton {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 15px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  float: none;
+  /* color: white; */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 body {
   text-align: center;
   color: lightgray;
@@ -38,6 +79,8 @@ body {
 ul {
   list-style-type:none;
 }
+
+
 
 .tab {
   overflow: hidden;
