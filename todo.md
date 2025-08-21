@@ -42,6 +42,7 @@ links:
 css/ styling:
 
     - animations as you select tabs?
+    - animation on click? - https://www.reddit.com/r/css/comments/hn6ugr/make_image_appear_and_then_fall_offscreen_where_i/
     - images before/ after text instead of as background to it? makes it too hard to read as background maybe.
 
 where to get free images:
