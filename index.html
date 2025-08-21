@@ -10,7 +10,7 @@
 <body>
     <header>
         <div id="topnav" class="topnav">
-            <a class="active" href="index.html">Home</a>
+            <!-- <a class="active" href="index.html">Home</a> -->
             <div class="dropdown">
                 <button class="dropbutton">Games</button>
                 <div class="dropdown-content">
@@ -59,62 +59,71 @@
             <p>Some areas I would like to improve on and that I hope joining Founders and Coders will help with include working with cloud tools, getting better at testing (especially end to end and integration testing), and improving my frontend skills</p>
         </section>
 
-        <h2>Projects</h2>
+
         <section>
-            <h2>Games</h2>
-            <section id="games">
-                <div class="tab">
-                    <button id="tab_applicationGame" class="tablinks">Application Game</button>
-                    <button id="tab_snake" class="tablinks">Multiplayer Snake</button>
-                    <button id="tab_fish" class="tablinks">Flappy Fish</button>
-                    <button id="tab_bomberman" class="tablinks">Bomberman</button>
+            <h2>Projects</h2>
+            <section id="games" class="tabcontainer">
+                <h2>Games</h2>
+                <div class="tabs">
+                    <button id="tab_applicationGame" class="tab">Application Game</button>
+                    <button id="tab_snake" class="tab">Multiplayer Snake</button>
+                    <button id="tab_fish" class="tab">Flappy Fish</button>
+                    <button id="tab_bomberman" class="tab">Bomberman</button>
                 </div>
                 <div id="applicationGame" class="tabcontent">
                     <h3>Application Game</h3>
-                    <p>this is the game i made for the application</p>
+                    <img class="tabimage" src="/images/dice.jpg" alt="a pair of red six sided dice">
+                    <p>this is the game i made for the application. lorem ipsum bee movie spiders georgethis is the game i made for the application. lorem ipsum bee movie spiders georgethis is the game i made for the application. lorem ipsum bee movie spiders georgethis is the game i made for the application. lorem ipsum bee movie spiders georgethis is the game i made for the application. lorem ipsum bee movie spiders george</p>
                     <p>here are links to the <a href="game.html" target="_blank">game</a> and the <a href="https://github.com/rash92/fac-application" target="_blank">code</a>.</p>
                 </div>
                 <div id="snake" class="tabcontent">
                     <h3>Multiplayer snake</h3>
+                    <img class="tabimage" src="/images/snake_background_1.jpg" alt="a swarm of snakes">
                     <p>this is a version of the classic game 'Snake' I made following a <a href="https://www.youtube.com/watch?v=VOMpipAMZO4">tutorial</a>.</p>
                     <p>here are links to the <a href="https://rash92.github.io/canvas-projects/project_2/" target="_blank">game</a> and the <a href="https://github.com/rash92/canvas-projects/project_2/" target="_blank">code</a>.</p>
                 </div>
                 <div id="fish" class="tabcontent">
                     <h3>Flappy Fish</h3>
+                    <img class="tabimage" src="/images/fish_background_2.jpg" alt="a mechanical anglerfish underwater">
                     <p>this is a version of the game 'Flappy Bird' I made following a <a href="https://www.youtube.com/watch?v=vGRbs-HqBJE">tutorial</a>.</p>
                     <p>here are links to the <a href="https://rash92.github.io/canvas-projects/project_1/" target="_blank">game</a> and the <a href="https://github.com/rash92/canvas-projects/project_1/" target="_blank">code</a>.</p>
                 </div>
                 <div id="bomberman" class="tabcontent">
                     <h3>Bomberman</h3>
+                                        <img class="tabimage" src="/images/bomberman_background_2.jpg" alt="bomberman on a plain background">
                     <p>this is a recreation of the classic game 'Bomberman' I made with a group at 01Founders.</p>
                     <p>here are links to the <a href="https://rash92.github.io/01f-make-your-game/" target="_blank">game</a> and the <a href="https://github.com/rash92/01f-make-your-game/" target="_blank">code</a>.</p>
                 </div>
             </section>
-            <h2>Other Projects</h2>
             <section id="other-projects">
-                <div class="tab">
-                    <button id="tab_minireact" class="tablinks">Mini React</button>
-                    <button id="tab_socialNetwork" class="tablinks">Social Network</button>
-                    <button id="tab_gravLensing" class="tablinks">Gravitational Lensing</button>
-                    <button id="tab_aicamp" class="tablinks">AI Safety Camp</button>
+                <h2>Other Projects</h2>
+                <div class="tabs">
+                    <button id="tab_minireact" class="tab">Mini React</button>
+                    <button id="tab_socialNetwork" class="tab">Social Network</button>
+                    <button id="tab_gravLensing" class="tab">Gravitational Lensing</button>
+                    <button id="tab_aicamp" class="tab">AI Safety Camp</button>
                 </div>
                 <div id="minireact" class="tabcontent">
                     <h3>Mini React</h3>
+                    <img class="tabimage" src="/images/todo_background.jpg" alt="a clipboard with a todo list on a blue background">
                     <p>This project involved recreating behavious from the React framework and then using that framework to create a basic to do list that has all of the features on the to-do lists on todoMVC</p>
                     <p>here is the link to the <a href="https://rash92.github.io/01f-mini-framework/">todo list</a> and here is the link to the <a href="https://github.com/rash92/01f-mini-framework">code</a>. </p>
                 </div>
                 <div id="socialNetwork" class="tabcontent">
                     <h3>Social Network</h3>
+                    <img class="tabimage" src="/images/social_network_background.jpg" alt="a network of lines with a human symbol at some of the nodes">
                     <p>This was a group project to create a social network with posts, comments, groups, events, private and group messages, followers, notifications and other features. It was build with a go backend using SQLite as the database and React for the frontend. My contribution was mainly on the backend working with Go and SQLite.</p>
                     <p>It is not currently hosted so to see it you would have to clone the repo and run it locally. here is the link to the <a href="https://github.com/rash92/01f-social-network">code</a>.</p>
                 </div>
                 <div id="gravLensing" class="tabcontent">
                     <h3>Gravitational Lensing</h3>
+                    <img class="tabimage" src="/images/lensing_background.jpeg" alt="a view of the night sky with densely packed stars. In the middle is ablack hole distorting the image near it">
                     <p>This was my final project during my Physics masters. It involved ingesting a large dataset of galaxies and using ray traving to simulate the path of light from galaxies to an observer, taking into account how light was bent by other galaxies on the path there. It was written in MATLAB</p>
                     <p>Unfortunately I no longer have the code available</p>
                 </div>
                 <div id="aicamp" class="tabcontent">
                     <h3>AI Safety Camp</h3>
+                    <img class="tabimage" src="/images/aicamp_background_2.png" alt="a scientist kneeling on a giant laptop, the laptop screen shows a mess of neurons which the scientist is fiddling with.">
                     <p>I volunteered for 3 months on 'AI Safety Camp' as a junior research engineer. I joined along with some other volunteers to help a team leader with his existing project written in python to analyise an LLM (specifically Llama), by pruning neurons to reduce performance on specific topics and checking to see how performance in other topics fell. E.g. as performance on answering biology related questions was deliberately stunted, how much did performance fall in chemistry vs. physics vs. maths vs. english vs. law etc. </p>
                     <p>Here is a link to my <a href="https://github.com/rash92/taker">fork</a> of the repo from the time.</p>
                 </div>

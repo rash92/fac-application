@@ -1,13 +1,9 @@
 TODO:
-
-Extract common elements between index and game html files instead of repeating code. Insert with js? SPA or multi page?
-
-navbar:
-    - maybe dropdown for external links to other projects?
-    - CV? linkedin?
-
-home:
-    - explain other projects that open in new tabs
+- create game, host it separately and link to it externally on homepage.
+- write all the text and make text pretty/ pick font etc.
+- add second image per project? (one for button, one in contents)
+- mess about with colour palette?
+- explain projects that open in new tabs
         - bomberman: only html, css and js but not solo made by me
         - snake and flappy fish: following tutorial
             snake: bug - mushroom sometimes out of bounds
@@ -33,24 +29,16 @@ home:
     - navbar - jump to links instead of separate links? e.g. games, other projects, then external links to github and linked in maybe
 
 game:
-    - roguelitish elements?
-    - combining monsters?
-    - potions?
-    - dice rolls? cards? tarot?
-    - space?
-
-    - crafting potions with bonuses from tarot cards and other 'choose 1 of 3' roguelitish elements.
-
+    dice game (yahtzee) with powerups?
+    card game (blackjack) with powerups?
+    could do without powerups and just have basic game
+    chess?
     SIMPLE: don't be overambitious, only have 1 month.
 
 css/ styling:
-    - ???
-    - make it dynamic/ flexy? works on mobile/ changing window size?
-    - animations as you scroll/ swap tabs?
-    - background image changes as you swap tabs?
-    - images before/ after text instead of as background to it? makes it too hard to read as background maybe.
 
-add animations, mess about with padding, colours, centering etc., flesh out text in all the sections. Add more images.
+    - animations as you select tabs?
+    - images before/ after text instead of as background to it? makes it too hard to read as background maybe.
 
 where to get free images:
 

@@ -11,21 +11,21 @@ function openProject(event){
     */
     let projectName = event.currentTarget.id.split("_")[1]
     let tabcontents = document.getElementsByClassName("tabcontent")
-    let tablinks = document.getElementsByClassName("tablinks")
+    let tab = document.getElementsByClassName("tab")
 
     //hide all tabcontents
     Array.from(tabcontents).forEach(element => element.style.display = "none");
 
-    //remove active from all tablinks
-    Array.from(tablinks).forEach(element => element.className = element.className.replace(" active", ""))
+    //remove active from all tab
+    Array.from(tab).forEach(element => element.className = element.className.replace(" active", ""))
 
     //put active back on actually selective tablink
     document.getElementById(projectName).style.display = "block";
     event.currentTarget.className += " active"
 }
 
-let tablinks = document.getElementsByClassName("tablinks")
+let tab = document.getElementsByClassName("tab")
 //annoying workaround because HTMLCollectionOf is not actually an array so can't foreach. could do classic for loop instead of this.
-Array.from(tablinks).forEach(element => {
+Array.from(tab).forEach(element => {
     element.addEventListener("click", openProject)
 })
