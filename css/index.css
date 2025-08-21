@@ -3,6 +3,7 @@
   --color3:white;
   --color2: rgb(238, 206, 148);
   --color4: rgb(92, 10, 92);
+
 }
 
 .topnav {
@@ -74,6 +75,7 @@
 
 body {
   text-align: center;
+  font-family: cursive;
   color: var(--color2);
   background-color: var(--color1);
   width: 50%;
