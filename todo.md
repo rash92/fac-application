@@ -35,6 +35,9 @@ game:
     chess?
     SIMPLE: don't be overambitious, only have 1 month.
 
+links:
+    github - dropdown with links to individual projects?
+
 css/ styling:
 
     - animations as you select tabs?
