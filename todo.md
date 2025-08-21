@@ -17,14 +17,15 @@ TODO:
 
     - explain background/ brief cv outline?
     - explain why i want to work in webdev
+    - add more pictures?
 
-    -structure:
-        about (paragraph), some kind of picture?
-        tutoring: paragraph
-        languages summary: links that jump to projects below maybe?
-        completed games: tabs -> application game, snake, flappy fish, bomberman
-        other completed 01F projects (github): tabs -> miniframework, social network,
-        misc projects (no github/ minor contributions/ unfinished): tabs -> cs_ff, physics project, ai safety camp, rpg-character creator
+-structure:
+    about (paragraph), some kind of picture?
+    tutoring: paragraph
+    languages summary: links that jump to projects below maybe?
+    completed games: tabs -> application game, snake, flappy fish, bomberman
+    other completed 01F projects (github): tabs -> miniframework, social network,
+    misc projects (no github/ minor contributions/ unfinished): tabs -> cs_ff, physics project, ai safety camp, rpg-character creator
 
     - navbar - jump to links instead of separate links? e.g. games, other projects, then external links to github and linked in maybe
 
