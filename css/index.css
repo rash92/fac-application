@@ -143,7 +143,7 @@ ul {
 }
 
 #tab_applicationGame {
-  background-image: url(/images/dice.jpg);
+  background-image: url(../images/dice.jpg);
   background-size: contain;
   background-repeat: round round;
   /* color: lightyellow; */
@@ -151,21 +151,21 @@ ul {
 }
 
 #tab_snake {
-  background-image: url(/images/snake_background_1.jpg);
+  background-image: url(../images/snake_background_1.jpg);
   background-size: contain;
   background-repeat: round round;
   /* color: white */
 }
 
 #tab_fish {
-  background-image: url(/images/fish_background_2.jpg);
+  background-image: url(../images/fish_background_2.jpg);
   background-size: contain;
   background-repeat: round round;
   /* color: pink; */
 }
 
 #tab_bomberman {
-  background-image: url(/images/bomberman_background_2.jpg);
+  background-image: url(../images/bomberman_background_2.jpg);
   background-size: contain;
   background-repeat: round round;
   /* color: cyan; */
@@ -173,25 +173,25 @@ ul {
 }
 
 #tab_minireact {
-  background-image: url(/images/todo_background.jpg);
+  background-image: url(../images/todo_background.jpg);
   background-size: contain;
   /* color: black; */
 }
 
 #tab_gravLensing {
-  background-image: url(/images/lensing_background.jpeg);
+  background-image: url(../images/lensing_background.jpeg);
   background-size: contain;
   /* color: magenta */
 }
 
 #tab_socialNetwork {
-  background-image: url(/images/social_network_background.jpg);
+  background-image: url(../images/social_network_background.jpg);
   background-size: contain;
   /* color: white; */
 }
 
 #tab_aicamp {
-  background-image: url(/images/aicamp_background_2.png);
+  background-image: url(../images/aicamp_background_2.png);
   background-size: contain;
   /* color: yellow; */
 }
