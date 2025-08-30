@@ -147,21 +147,26 @@ ul {
   background-image: url(../images/bomberman_background_2.jpg);
   background-size: contain;
   background-repeat: round round;
+    color: var(--color1);
+
 }
 
 #tab_minireact {
   background-image: url(../images/todo_background.jpg);
   background-size: contain;
+  color: var(--color1);
 }
 
 #tab_gravLensing {
   background-image: url(../images/lensing_background.jpeg);
   background-size: contain;
+
 }
 
 #tab_socialNetwork {
   background-image: url(../images/social_network_background.jpg);
   background-size: contain;
+
 }
 
 #tab_aicamp {
@@ -171,4 +176,5 @@ ul {
 
 img {
   max-width: 100%;
+  border-radius: 8px;
 }
