@@ -195,3 +195,7 @@ ul {
   background-size: contain;
   /* color: yellow; */
 }
+
+img {
+  max-width: 100%;
+}
